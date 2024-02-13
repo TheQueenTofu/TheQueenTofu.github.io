@@ -23,7 +23,8 @@
 
 .embedded-image {
   width: 100%;
-  height: auto; /* Pour maintenir les proportions de l'image */
+  height: auto; /* Garder les proportions de l'image */
   display: block;
-  margin: 0 auto; /* Pour centrer l'image horizontalement */
+  margin: 0 auto; /* Centrer l'image horizontalement */
+  height: 80vh; /* Changer la hauteur de l'image (par exemple, 80% de la hauteur de la fenêtre) */
 }
