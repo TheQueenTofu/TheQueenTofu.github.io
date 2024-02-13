@@ -6,24 +6,24 @@
 
 .centered-title {
   text-align: center;
-  color: black; /* Titre en noir */
+  color: white; /* Titre en blanc */
+  font-style: italic; /* Titre en italique */
 }
 
 .embedded-image-container {
-  width: 60%; /* L'image occupe 3/5 de l'espace */
-  margin: 0 auto; /* Pour centrer l'image horizontalement */
+  width: 100%; /* L'image occupe la largeur complète */
   margin-top: 1.6em;
   margin-bottom: 0.9em;
   overflow: hidden;
   border-radius: 8px;
   will-change: transform;
   box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); /* Ombre */
+  background-color: white; /* Couleur de fond de l'image */
 }
 
 .embedded-image {
   width: 100%;
   height: auto; /* Pour maintenir les proportions de l'image */
   display: block;
+  margin: 0 auto; /* Pour centrer l'image horizontalement */
 }
-
-/* Les autres styles peuvent être ajoutés ici */
