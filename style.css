@@ -6,7 +6,7 @@
 
 .centered-title {
   text-align: center;
-  color: black; /* Couleur du texte en noir */
+  color: black; /* Titre en noir */
 }
 
 .embedded-image-container {
@@ -26,7 +26,4 @@
   display: block;
 }
 
-.instagram-link {
-  /* Supprimez le style pour le lien Instagram */
-  display: none; /* Pour masquer le lien */
-}
+/* Les autres styles peuvent être ajoutés ici */
